@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-28T03:39:25.506654+00:00",
+  "generated_at": "2026-09-28T04:04:03.324360+00:00",
   "submission_dir": "D:\\AI\\Day11-LabAM\\K4-L3B-Day11-DangTheVinh-2A20262587-Guardrails-HITL-Responsible-AI",
   "technical_failure": false,
   "packaging": {
@@ -39,15 +39,15 @@
     "red_team": {
       "llm_provider": "openai",
       "llm_model": "gpt-4o-mini",
-      "unsafe_leaks": 5,
-      "unsafe_total": 5,
-      "guards_leaks": 0,
-      "guards_total": 5
+      "unsafe_leaks": 8,
+      "unsafe_total": 8,
+      "guards_leaks": 3,
+      "guards_total": 8
     }
   },
   "public_tests": {
     "returncode": 0,
-    "stdout": "..........                                                               [100%]\n============================== warnings summary ===============================\nC:\\Users\\ADMIN\\AppData\\Local\\Temp\\codex-cp2-venv-20260928\\Lib\\site-packages\\_pytest\\cacheprovider.py:469\n  C:\\Users\\ADMIN\\AppData\\Local\\Temp\\codex-cp2-venv-20260928\\Lib\\site-packages\\_pytest\\cacheprovider.py:469: PytestCacheWarning: could not create cache path D:\\AI\\Day11-LabAM\\K4-L3B-Day11-DangTheVinh-2A20262587-Guardrails-HITL-Responsible-AI\\.pytest_cache\\v\\cache\\nodeids: [WinError 5] Access is denied: 'D:\\\\AI\\\\Day11-LabAM\\\\K4-L3B-Day11-DangTheVinh-2A20262587-Guardrails-HITL-Responsible-AI\\\\.pytest_cache\\\\v\\\\cache'\n    config.cache.set(\"cache/nodeids\", sorted(self.cached_nodeids))\n\n-- Docs: https://docs.pytest.org/en/stable/how-to/capture-warnings.html\n10 passed, 1 warning in 1.14s\n",
+    "stdout": "..........                                                               [100%]\n============================== warnings summary ===============================\n.venv\\Lib\\site-packages\\_pytest\\cacheprovider.py:469\n  D:\\AI\\Day11-LabAM\\K4-L3B-Day11-DangTheVinh-2A20262587-Guardrails-HITL-Responsible-AI\\.venv\\Lib\\site-packages\\_pytest\\cacheprovider.py:469: PytestCacheWarning: could not create cache path D:\\AI\\Day11-LabAM\\K4-L3B-Day11-DangTheVinh-2A20262587-Guardrails-HITL-Responsible-AI\\.pytest_cache\\v\\cache\\nodeids: [WinError 5] Access is denied: 'D:\\\\AI\\\\Day11-LabAM\\\\K4-L3B-Day11-DangTheVinh-2A20262587-Guardrails-HITL-Responsible-AI\\\\.pytest_cache\\\\v\\\\cache'\n    config.cache.set(\"cache/nodeids\", sorted(self.cached_nodeids))\n\n-- Docs: https://docs.pytest.org/en/stable/how-to/capture-warnings.html\n10 passed, 1 warning in 1.01s\n",
     "stderr": "",
     "technical_failure": false
   },
